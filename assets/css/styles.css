@@ -7,6 +7,7 @@ body{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 13px;
     overflow-x: hidden;
+    background-color: #eee;
 }
 
 header{
@@ -145,15 +146,16 @@ header{
     padding-bottom: 50px;
 }
 
-.default .section-title,
+.default .tle,
 .default .section-desc {
     text-align: center;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .default .section-title{
     font-size: 20px;
+    text-align: center;
 }
 .default .section-desc{
     font-size: 12px;
@@ -467,4 +469,65 @@ header{
 
 .client .pointer.active{
     background-color: #b28756;
+}
+.sponsor{
+    background-color: white;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.sponsor .section-sponsor--logo{
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.sponsor .section-sponsor--logo img{
+    width: 120px;
+    margin-left: 80px;
+    max-width: 1140px;
+}
+
+.section-product{
+    height: 500px;
+    width: 1140px;
+    margin: auto;
+    text-align: center;
+}
+
+.section-product--prices{
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    background-color: #fff;
+}
+.section-product--prices{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 15px;
+}
+.product-price{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.section-product--prices h3{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.product-content{
+    padding-bottom: 50px;
+}
+.button-price {
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 15px;
 }
