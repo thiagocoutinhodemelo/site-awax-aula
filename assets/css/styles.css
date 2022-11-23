@@ -533,14 +533,13 @@ header{
     margin-top: 30px;
     border-radius: 15px;
 }
-
-.premium{
-    background-color: red;
-    width: 1140px;
-    height: 600px;
-    margin: auto;
+.section-map{
+    background-image: url(../images/mapa.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-.section-premium--content{
-    display: flex;
+.section-map--area{
+    width: 100vw;
+    max-width: 1140px;
 }
